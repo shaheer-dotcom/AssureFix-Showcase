@@ -1,4 +1,11 @@
 
+##  License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+**AssureFix** - Connecting trusted service providers with customers seamlessly!
+
 A comprehensive Flutter and Node.js application for connecting service providers with customers. AssureFix allows users to book various home and professional services with features like real-time messaging, voice notes, and comprehensive booking management.
 
 ## Features
@@ -82,53 +89,6 @@ A comprehensive Flutter and Node.js application for connecting service providers
 - **Multer** - File upload handling
 - **JWT** - Authentication tokens
 
-## Installation & Setup
-
-### Prerequisites
-- Flutter SDK (3.0+)
-- Node.js (16+)
-- MongoDB (local or cloud)
-- Git
-
-### Backend Setup
-```bash
-cd backend
-npm install
-cp .env.example .env
-# Configure your MongoDB connection in .env
-npm start
-```
-
-### Frontend Setup
-```bash
-cd frontend
-flutter pub get
-flutter run -d chrome --web-port=8082
-```
-
-### Environment Variables
-Create a `.env` file in the backend directory:
-```env
-MONGODB_URI=mongodb://localhost:27017/assurefix
-JWT_SECRET=your_jwt_secret_here
-PORT=5000
-```
-
-##  Running the Application
-
-1. **Start Backend Server**:
-   ```bash
-   cd backend
-   npm start
-   ```
-   Server runs on: `http://localhost:5000`
-
-2. **Start Frontend App**:
-   ```bash
-   cd frontend
-   flutter run -d chrome --web-port=8082
-   ```
-   App runs on: `http://localhost:8082`
 
 ##  App Features Overview
 
@@ -222,14 +182,11 @@ PORT=5000
 - Message types (text, voice, file)
 - Real-time delivery status
 
-##  License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
 For support and questions:
-- Create an issue in this repository
 - Contact: shaheer13113@gmail.com
 
 ##  Future Enhancements
@@ -243,8 +200,6 @@ For support and questions:
 - [ ] Advanced analytics dashboard
 
 ---
-
-**AssureFix** - Connecting trusted service providers with customers seamlessly! 🔧✨
 
 
 ---
